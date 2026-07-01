@@ -121,4 +121,3 @@ All routes except `/login` & `/logout` require an `Authorization: Bearer <token>
 
 - Marks per question are distributed evenly (`total_marks / total_questions`); wrong answers
   subtract the exam's `negative_mark`. Total marks never drop below zero.
-- Grades: A+ ≥90, A ≥80, B ≥70, C ≥60, D ≥50, E ≥40, else F.
